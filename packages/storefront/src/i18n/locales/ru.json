@@ -1,4 +1,10 @@
 {
+  "pricing": {
+    "surcharge": "Надбавка за упаковку/тару",
+    "unit": "шт.",
+    "taxIncluded": "Включая налог {{rate}}%",
+    "includedTax": "В том числе налог"
+  },
   "common": {
     "loading": "Загрузка...",
     "error": "Что-то пошло не так",
@@ -145,8 +151,11 @@
     "apply": "Применить",
     "couponApplied": "Промокод применён!",
     "paymentMethod": "Способ оплаты",
+    "paymentMethodsUnavailable": "Не удалось загрузить способы оплаты. Попробуйте ещё раз.",
+    "noPaymentMethods": "Сейчас нет доступных способов оплаты. Свяжитесь с рестораном.",
     "creditCard": "Банковская карта (Stripe)",
     "cashOnDelivery": "Оплата наличными при получении",
+    "payu": "PayU",
     "orderSummary": "Состав заказа",
     "subtotal": "Промежуточный итог",
     "tax": "Налог",

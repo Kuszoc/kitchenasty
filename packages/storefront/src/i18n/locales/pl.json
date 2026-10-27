@@ -1,4 +1,10 @@
 {
+  "pricing": {
+    "surcharge": "Dopłata za opakowanie/pojemnik",
+    "unit": "szt.",
+    "taxIncluded": "Zawiera {{rate}}% podatku",
+    "includedTax": "W tym podatek"
+  },
   "common": {
     "loading": "Ładowanie...",
     "error": "Coś poszło nie tak",
@@ -145,8 +151,11 @@
     "apply": "Zastosuj",
     "couponApplied": "Kod rabatowy zastosowany!",
     "paymentMethod": "Metoda płatności",
+    "paymentMethodsUnavailable": "Nie można załadować opcji płatności. Spróbuj ponownie.",
+    "noPaymentMethods": "Obecnie brak dostępnych metod płatności. Skontaktuj się z restauracją.",
     "creditCard": "Karta płatnicza (Stripe)",
     "cashOnDelivery": "Gotówka przy odbiorze",
+    "payu": "PayU",
     "orderSummary": "Podsumowanie zamówienia",
     "subtotal": "Suma częściowa",
     "tax": "Podatek",
